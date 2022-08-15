@@ -25,4 +25,8 @@ Interface class responsible for data access
 ## 5 - Student Service (Service Layer)
 Class respoonsible for business logic
 
-Note: The project runs on port 8091 you can change it from application.properties file
+Notes: 
+1 - The project runs on port 8091 you can change it from application.properties file
+2 - if you want to run the project you have to change application.properties file to your OWN settings 
+3 - I used postgresql as my database 
+4 -  api path api/v1/student
