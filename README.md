@@ -21,8 +21,6 @@ Java spring boot using API for (PUT DELETE GET POST) of students.
 ### Basic Usage
 You can find the collection of [Operations](https://github.com/roshdology123/CRUDAPI/blob/master/Operations.postman_collection.json) 
 * Navigate to http://localhost:8091/api/v1/student and you will see 2 records 
-* Add a student
-  1 - send a http request POST JSON file with the details of the student ( 
 
 ### Notes: 
 #### 1 - The project runs on port 8091 you can change it from application.properties file.
