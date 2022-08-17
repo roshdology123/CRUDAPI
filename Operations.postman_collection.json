@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "3abcfd63-04b3-49ef-ae89-95c444f5ef15",
+		"name": "Operations",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22823261"
+	},
+	"item": [
+		{
+			"name": "Get All students",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{root}}/{{path}}",
+					"host": [
+						"{{root}}"
+					],
+					"path": [
+						"{{path}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post a student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Example\",\r\n    \"email\": \"example@gmail.com\",\r\n    \"dob\": \"2002-01-01\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{root}}/{{path}}",
+					"host": [
+						"{{root}}"
+					],
+					"path": [
+						"{{path}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update a student",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{root}}/{{path}}/{{studentId}}?name={{New Name}}&email={{New Email}}&dob={{New dob}}",
+					"host": [
+						"{{root}}"
+					],
+					"path": [
+						"{{path}}",
+						"{{studentId}}"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "{{New Name}}"
+						},
+						{
+							"key": "email",
+							"value": "{{New Email}}"
+						},
+						{
+							"key": "dob",
+							"value": "{{New dob}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a student",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{root}}/{{path}}/{{studentId}}",
+					"host": [
+						"{{root}}"
+					],
+					"path": [
+						"{{path}}",
+						"{{studentId}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
