@@ -14,9 +14,9 @@ Java spring boot using API for (PUT DELETE GET POST) of students.
 1 - Database with the name of "Student"
 
 ### Setup
-1 - Clone https://github.com/roshdology123/CRUDAPI.git
-2 - Open project with your fav. IDE (pref Intellij)
-3 - Run the project!
+#### 1 - Clone https://github.com/roshdology123/CRUDAPI.git
+#### 2 - Open project with your fav. IDE (pref Intellij)
+#### 3 - Run the project!
 
 ### Basic Usage
 You can find the collection of [Operations](https://github.com/roshdology123/CRUDAPI/blob/master/Operations.postman_collection.json) 
